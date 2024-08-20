@@ -1,0 +1,19 @@
+ body {
+ background-image: url("bege.png"); background-repeat: no-repeat; background-size: 1630px;
+
+
+}
+table {
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+h1{
+    color: rgb(82, 9, 111);
+}
+.fotos{
+    display: flex;
+}

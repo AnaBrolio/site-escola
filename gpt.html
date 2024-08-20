@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Rosa com Áudio e Cronograma</title>
+    <style>
+        body {
+            background-color: #f8c6d7; /* Cor rosa clara com um tom quente */
+            color: #333;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6f91; /* Rosa mais forte */
+            color: white;
+            padding: 10px 0;
+            border-bottom: 5px solid #ff4d6d; /* Rosa mais escuro para a borda inferior */
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        audio {
+            display: none; /* Esconde o player de áudio */
+        }
+        .container {
+            padding: 20px;
+        }
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #ff6f91;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        caption {
+            font-size: 1.5em;
+            margin: 10px;
+            color: #ff4d6d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Seja Bem-Vindo!</h1>
+    </header>
+    <div class="container">
+        <audio autoplay>
+            <source src="seja-bem-vindo.mp3" type="audio/mpeg">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+
+        <table>
+            <caption>Cronograma de Matérias</caption>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Matéria</th>
+                    <th>Horário</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Segunda-feira</td>
+                    <td>Matemática</td>
+                    <td>08:00 - 10:00</td>
+                </tr>
+                <tr>
+                    <td>Terça-feira</td>
+                    <td>Português</td>
+                    <td>10:15 - 12:15</td>
+                </tr>
+                <tr>
+                    <td>Quarta-feira</td>
+                    <td>História</td>
+                    <td>13:00 - 15:00</td>
+                </tr>
+                <tr>
+                    <td>Quinta-feira</td>
+                    <td>Geografia</td>
+                    <td>15:15 - 17:15</td>
+                </tr>
+                <tr>
+                    <td>Sexta-feira</td>
+                    <td>Ciências</td>
+                    <td>08:00 - 10:00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
